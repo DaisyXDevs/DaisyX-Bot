@@ -1,6 +1,6 @@
 
-#    Copyright (C) 2020-2021 by @AmarnathCdj & @InukaAsith
-#    Chatbot system written by @AmarnathCdj databse added and recoded for pyrogram by @InukaAsith
+#    Copyright (C) 2020-2021 by @AmarnathCdj 
+#    Chatbot system written by @AmarnathCdj databse added. 
 #    This programme is a part of DaisyX (TG bot) project
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -30,7 +30,7 @@ from json import JSONDecodeError
 import json
 daisy_chats = []
 
-# AI Chat (C) 2020-2021 by @InukaAsith
+
 
 @daisyx.on_message(filters.command("chatbot") & ~filters.edited & ~filters.bot)
 @admins_only
@@ -98,7 +98,7 @@ async def hmm(client,message):
   lodu = response.json()
   result = (lodu['message']['text'])
   pro = result
-  pro = pro.replace('Thergiakis Eftichios','@InukaAsith')
+  pro = pro.replace('Thergiakis Eftichios','@lucifeermorningstar')
   pro = pro.replace('Jessica','Daisy')
   if "Out of all ninja turtle" in result:
    pro = "Sorry! looks I missed that. I'm at your service ask anthing sir?"
